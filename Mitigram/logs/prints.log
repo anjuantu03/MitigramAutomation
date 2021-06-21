@@ -1,5 +1,4 @@
-14:00:01.239 [main] INFO  com.mitigram.testFiles.LoginTest - Invalid login without providing email verified successfully!!
-14:00:02.974 [main] INFO  com.mitigram.pageObjects.MitigramLoginPage - The Email field is not a valid e-mail address error message is displayed
-14:00:02.975 [main] INFO  com.mitigram.testFiles.LoginTest - Invalid Email Format verified successfully!!
-14:00:05.531 [main] INFO  com.mitigram.testFiles.LoginTest - Careers button clicked successfully!!
-14:00:06.564 [main] INFO  com.mitigram.testFiles.LoginTest - Web browser closed successfully!!
+15:25:58.629 [main] INFO  com.mitigram.pageObjects.MitigramLoginPage - The Email field is not a valid e-mail address error message is displayed
+15:25:58.650 [main] INFO  com.mitigram.testFiles.LoginTest - Invalid Email Format verified successfully!!
+15:26:01.033 [main] INFO  com.mitigram.testFiles.LoginTest - Careers button clicked successfully!!
+15:26:05.070 [main] INFO  com.mitigram.testFiles.LoginTest - Web browser closed successfully!!

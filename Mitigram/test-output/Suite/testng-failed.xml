@@ -5,32 +5,15 @@
     <listener class-name="com.mitigram.testFiles.Listeners"/>
     <listener class-name="com.mitigram.resources.ExtentReporterNG"/>
   </listeners>
-  <test thread-count="5" name="Test(failed)">
+  <test thread-count="5" name="Tests(failed)">
     <classes>
       <class name="com.mitigram.testFiles.LoginTest">
         <methods>
-          <include name="verifyBlankLogin"/>
+          <include name="tc05VerifyInvalidLoginWithoutPassword"/>
           <include name="startUp"/>
-          <include name="verifyInvalidLogin"/>
-          <include name="clickLoginHome"/>
-          <include name="verifyInvalidEmailFormat"/>
-          <include name="verifyInvalidLoginWithoutEmail"/>
           <include name="tearDown"/>
-          <include name="verifyInvalidLoginWithoutPassword"/>
-          <include name="verifyLoginPage"/>
         </methods>
       </class> <!-- com.mitigram.testFiles.LoginTest -->
     </classes>
-  </test> <!-- Test(failed) -->
-  <test thread-count="5" name="Test2(failed)">
-    <classes>
-      <class name="com.mitigram.testFiles.CareersTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="startUp"/>
-          <include name="clickCareers"/>
-        </methods>
-      </class> <!-- com.mitigram.testFiles.CareersTest -->
-    </classes>
-  </test> <!-- Test2(failed) -->
+  </test> <!-- Tests(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -47,7 +47,11 @@ public static Logger log = LogManager.getLogger(MitigramLoginPage.class.getName(
 	WebElement txt_InvalidEmailFormat;
 	
 	
-	
+	public void clearEmailAndPassword()
+	{
+		txtbox_email.clear();
+		txtbox_password.clear();
+	}
 	
 	
 	public void verifyLoginPageElementsDisplayed() throws InterruptedException
@@ -69,7 +73,7 @@ public static Logger log = LogManager.getLogger(MitigramLoginPage.class.getName(
 	public void verifyInvalidLogin(String email,String password) throws InterruptedException
 	{
 		try {
-			
+			clearEmailAndPassword();
 			txtbox_email.sendKeys(email);
 			txtbox_password.sendKeys(password);
 			btn_login.click();
@@ -92,8 +96,7 @@ public static Logger log = LogManager.getLogger(MitigramLoginPage.class.getName(
 	{
 		try {
 			
-			txtbox_email.clear();
-			txtbox_password.clear();
+			clearEmailAndPassword();
 			btn_login.click();
 			txt_EmailRequired.isDisplayed();
 			log.info("Email is required error message is displayed");
@@ -114,8 +117,8 @@ public static Logger log = LogManager.getLogger(MitigramLoginPage.class.getName(
 	{
 		try {
 			
+			clearEmailAndPassword();
 			txtbox_email.sendKeys(email);
-			txtbox_password.clear();
 			btn_login.click();
 			txt_PasswordRequired.isDisplayed();
 			log.info("Password is required error message is displayed");
@@ -134,7 +137,7 @@ public static Logger log = LogManager.getLogger(MitigramLoginPage.class.getName(
 	{
 		try {
 			
-			txtbox_email.clear();
+			clearEmailAndPassword();
 			txtbox_password.sendKeys(password);;
 			btn_login.click();
 			txt_EmailRequired.isDisplayed();
@@ -155,6 +158,7 @@ public static Logger log = LogManager.getLogger(MitigramLoginPage.class.getName(
 	{
 		try {
 			
+			clearEmailAndPassword();
 			txtbox_email.sendKeys(email);
 			txtbox_password.sendKeys(password);
 			btn_login.click();

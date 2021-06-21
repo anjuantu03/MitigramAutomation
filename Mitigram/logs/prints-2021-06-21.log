@@ -1,5 +1,5 @@
-13:59:57.487 [main] INFO  com.mitigram.pageObjects.MitigramLoginPage - Email is required error message is displayed
-13:59:57.490 [main] INFO  com.mitigram.testFiles.LoginTest - Error message verified successfully!!
-13:59:59.444 [main] INFO  com.mitigram.pageObjects.MitigramLoginPage - Password is required error message is displayed
-13:59:59.444 [main] INFO  com.mitigram.testFiles.LoginTest - Invalid login without providing password verified successfully!!
-14:00:01.239 [main] INFO  com.mitigram.pageObjects.MitigramLoginPage - Email is required error message is displayed
+15:25:53.395 [main] INFO  com.mitigram.testFiles.LoginTest - Invalid login verified successfully!!
+15:25:55.168 [main] INFO  com.mitigram.pageObjects.MitigramLoginPage - Password is required error message is displayed
+15:25:55.168 [main] INFO  com.mitigram.testFiles.LoginTest - Invalid login without providing password verified successfully!!
+15:25:56.830 [main] INFO  com.mitigram.pageObjects.MitigramLoginPage - Email is required error message is displayed
+15:25:56.830 [main] INFO  com.mitigram.testFiles.LoginTest - Invalid login without providing email verified successfully!!
